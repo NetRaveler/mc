@@ -1,8 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
 img {
-    max-width: 200px;
+    max-width: 300px;
+    margin: 20px;
 }
 
 .header {
+    width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin: 0px;
+}
 
+.siteDescription {
+    max-width: 300px;
+}
+
+.productCard {
+    display: flex;
 }
