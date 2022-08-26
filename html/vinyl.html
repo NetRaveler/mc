@@ -6,15 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/product.css">
+    <script src="../scripts/order.js" defer></script>
     <title>Vinyl Decal</title>
 </head>
 
 <body>
     <form action="">
         <img src="../images/decalOnWood.jpg" alt="vinyl decal">
-        <label>Test</label> <input type="text">
+        <label>Enter Desired text</label>
+        <input type="text" id="desiredText">
         <button type="submit">Submit</button>
     </form>
+
+    <div class="previewContainer">
+        <p id="preview"></p>
+    </div>
 </body>
 
 </html>
